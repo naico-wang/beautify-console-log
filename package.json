@@ -1,0 +1,25 @@
+{
+  "name": "weapp-colorful-console",
+  "version": "0.0.1",
+  "description": "A colorful console for WeChat MiniProgram",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naico-wang/weapp-colorful-console.git"
+  },
+  "keywords": [
+    "console",
+    "beautiful",
+    "console"
+  ],
+  "author": "naico.wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naico-wang/beautify-console-log/issues"
+  },
+  "homepage": "https://github.com/naico-wang/beautify-console-log#readme"
+}
