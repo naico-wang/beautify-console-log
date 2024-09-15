@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "declaration": true,
-    "outDir": "./lib",
-    "strict": true,
-    "lib": ["es6", "dom"],
-    "moduleResolution": "Node"
+    "module": "ESNext",              // 使用 ESNext 来支持模块
+    "moduleResolution": "Node",      // Node 模块解析
+    "target": "ES6",                 // 目标 JavaScript 版本
+    "declaration": true,             // 生成声明文件
+    "outDir": "./dist",              // 输出文件夹
+    "strict": true,                  // 严格模式
+    "esModuleInterop": true,         // 兼容 CommonJS 和 ESModule
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
