@@ -24,7 +24,7 @@ function prettyPrint(title: string, text: string, color: string, content: any): 
       `%c ${title} %c ${text} %c`,
       `background:${color};border:1px solid ${color}; padding: 1px; border-radius: 2px 0 0 2px; color: #fff;`,
       `border:1px solid ${color}; padding: 1px; border-radius: 0 2px 2px 0; color: ${color};`,
-      'background:transparent'
+      'background:transparent',
     );
   } else {
     console.log(
@@ -32,7 +32,7 @@ function prettyPrint(title: string, text: string, color: string, content: any): 
       `background:${color};border:1px solid ${color}; padding: 1px; border-radius: 2px 0 0 2px; color: #fff;`,
       `border:1px solid ${color}; padding: 1px; border-radius: 0 2px 2px 0; color: ${color};`,
       'background:transparent',
-      content
+      content,
     );
   }
 }

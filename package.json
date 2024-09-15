@@ -1,6 +1,6 @@
 {
   "name": "weapp-colorful-console",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A colorful console for WeChat MiniProgram",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

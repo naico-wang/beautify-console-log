@@ -1,7 +1,7 @@
-declare const logger: {
-    info: (textOrTitle: string | null, content?: string) => void;
-    error: (textOrTitle: string | null, content?: string) => void;
-    warning: (textOrTitle: string | null, content?: string) => void;
-    success: (textOrTitle: string | null, content?: string) => void;
+declare const colorfulConsole: {
+    info: (textOrTitle: string | null, content?: any) => void;
+    error: (textOrTitle: string | null, content?: any) => void;
+    warning: (textOrTitle: string | null, content?: any) => void;
+    success: (textOrTitle: string | null, content?: any) => void;
 };
-export default logger;
+export default colorfulConsole;
