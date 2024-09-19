@@ -24,7 +24,7 @@ function prettyPrint(title, text, color, content) {
     }
 }
 function logMessage(logLevel, textOrTitle, content = '') {
-    const title = getTitle(textOrTitle, logLevel);
+    const title = getTitle(logLevel);
     const text = getContent(textOrTitle, typeof content === 'string' ? content : '');
     const colorMap = {
         [LOG_LEVEL.INFO]: '#909399',
